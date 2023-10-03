@@ -12,6 +12,11 @@ case 'C': n = 100; break;
 case 'D': n = 500; break;
 case 'M': n = 1000; break;
 }
+if (4 * n < a)
+a -= n;
+else
+a += n;
+}
 return a;
 }
 }
